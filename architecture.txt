@@ -1,0 +1,9 @@
+
+
+
+
+Terms to know:
+
+Load Balancer - the piece of hardware that listens on a particular IP address and forwards the requests to other servers.
+Sharding - splitting up a table across multiple databases based on the primary key
+CDN - Content Delivery Network - distributes static content by copying files to many machines across the globe

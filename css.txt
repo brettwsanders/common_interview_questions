@@ -1,0 +1,9 @@
+1. Q: How do you hide a div? 
+   A: display: none
+
+
+2. How do you center a div (horizontally and vertically)?
+  A: horizontally -> margin: auto;
+     vertically   -> position: relative;
+                     top: 50%;
+                     transform: translateY(-50%);
