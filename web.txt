@@ -1,0 +1,18 @@
+#1
+Q: What happens when you navigate to a website?
+A: 1. You enter a URL into the browser
+   2. The browser looks up the IP address for the domain name. It checks the following in order:
+      i. Browser cache
+      ii. OS cache
+      iii. Router cache
+      iv. ISP DNS cache
+      v. Recursive search
+   3. The browser sends a HTTP request to the web server
+   4. The server handles the request
+
+
+Terms to Know
+
+1. cookies: key-value pairs that track the state of a web site in between different page requests. Cookies store the name of the logged-in user, a secret number that was assigned to the user by the server, some of user’s settings, etc. The cookies will be stored in a text file on the client, and sent to the server with every request.
+
+2. 
