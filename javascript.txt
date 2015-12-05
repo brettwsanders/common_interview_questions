@@ -1,3 +1,36 @@
-#1
+Q: what is javascript?
+A: -prototype-based object-oriented scripting language that is dynamic, weakly typed and has first-class functions
+   -also considered a functional programming language because it has closures and supports higher-order functions
+   -  
+
 Q: why use javascript?
-A: allows you to make things happen in the user's browser without sending messages back and forth to the server
+A: client side
+  -allows you to make things happen in the user's browser without sending messages back and forth to the server
+  -adds dynamic and interactive features
+  -shifts some of the computational effort of running applications from the server to the client
+
+  server side
+  -it can do just about anything any other server-side language is capable of
+
+Q: what is difference between == and ===?
+A: === checks for equality of value and type (strict equality)
+   == only checks for equality of value (coerces the values before comparing)
+
+
+Q: what is 'strict mode'?
+A: 
+
+Q: what does it mean to be 'loosely typed'?
+A: when declaring a variable you don't need to specify the type. 
+
+Q: what is hoisting?
+A: when variable declarations are hoisted to topmost line in scope at runtime
+
+
+Q: difference between call() and apply()?
+A: The function .call() and .apply() are very similar in their usage except a little difference. .call() is used when the number of the function’s arguments are known to the programmer, as they have to be mentioned as arguments in the call statement. On the other hand, .apply() is used when the number is not known. The function .apply() expects the argument to be an array.
+
+Terms to Know:
+
+1. Closure - A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
+Closure is a locally declared variable related to a function which stays in memory when the function has returned.
